@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="sanity testing" parallel="methods">
+
+	<test name="Sanity tests">
+		
+	<!--  	<groups>
+		<run>
+		<include name="sanity"/>
+		</run>
+		</groups>   -->
+		
+		
+		
+		<classes>
+			<class name="TestNGPractice.Testng1" />
+			<class name="TestNGPractice.Testng3" />
+			<class name="TestNGPractice.TestNG2" />
+			<class name="TestNGPractice.BaseTestng" />
+		</classes>
+
+	</test>
+
+</suite>
